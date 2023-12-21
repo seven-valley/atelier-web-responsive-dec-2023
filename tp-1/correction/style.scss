@@ -1,0 +1,22 @@
+.mauve{background-color:#9931CC}
+.rouge{background-color:red}
+.gris{background-color:#C0C0C0}
+.orange{background-color:#FEA500}
+.rose{background-color:#F0807F}
+.blanc{background-color:F1FFF0;}
+.jaune{background-color:#FFFF01}
+.vert{background-color:#008001}
+// appliquer methode DRY : DO  NOT REPEAT YOURSELF
+.container{
+    width:400px;
+    min-height:200px;
+    div{
+        width:100px;
+        height:50px;
+        float:left;
+        text-align: center;
+    }
+}
+.w200{width:200px!important}
+.w400{width:400px!important}
+.h100{height:100px!important}
