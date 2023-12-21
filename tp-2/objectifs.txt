@@ -1,0 +1,11 @@
+TP2 
+Mise en page avec flexbox
+
+mettre en place un container
+
+mettre en place la methode DRY
+DO NOT REPEAT YOURSELF
+
+largeur d'une celulle 100px
+hauteur d'une cellule 50px
+
