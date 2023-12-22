@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+@media print {
+    .print{display:none}
+}
+/* definir un style pour les ecran desktop*/
+@media screen and (min-width:768px){
+    .main{
+        background-color: #ccc;
+    }
+
+}
+/* definir un style pour les ecran mobile*/
+@media screen and (max-width:768px){
+    .main{
+        background-color: tomato;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="print">
+        <h1>Header</h1>
+    </div>
+    <div class="main">lorem ipsum</div>
+</body>
+</html>
